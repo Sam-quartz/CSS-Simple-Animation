@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Color 1</title>
+</head>
+
+<body>
+	<!-- this source code is just for fun -->
+	<style>
+
+	@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+		body{
+			background-color: #FFFF00; /*yellow */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding:200px;
+			text-transform: uppercase;
+			 font-family: "Caesar Dressing", system-ui;
+
+		}
+		h1{
+            font-size: 290px;
+             opacity: 0;
+            animation: Kratos 2s ease-in forwards;
+		}
+
+		h1:hover{
+            cursor: pointer;
+           
+         }
+
+      @keyframes Kratos{
+      	from{ opacity:0;}
+      	to{ opacity: 1;}
+      } 
+      
+
+	</style>
+	<h1>Kratos</h1>
+</body>
